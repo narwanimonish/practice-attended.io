@@ -15,5 +15,5 @@ $factory->define(Event::class, function (Faker $faker) {
         'starts_at' => $startsAt,
         'ends_at' => $endsAt,
     ];
-})
+});
 
