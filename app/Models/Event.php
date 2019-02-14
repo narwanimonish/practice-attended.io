@@ -8,5 +8,10 @@ class Event extends BaseModel
         'starts_at',
         'ends_at',
     ];
-    
+
+    public function slots()
+    {
+        $this->hasMany(Slot::class);
+    }
+
 }
